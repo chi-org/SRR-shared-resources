@@ -141,7 +141,7 @@ jobs:
             fi
 
             # Configure git remote with PAT for authenticated push
-            git remote set-url origin "https://${GH_PAT}@github.com/moophat/SRR-shared-resources.git"
+            git remote set-url origin "https://${GH_PAT}@github.com/${{ github.repository_owner }}/SRR-shared-resources.git"
 
             # Push branch (normal push, not force)
             echo "⬆️ Pushing branch to origin"
