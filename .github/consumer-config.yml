@@ -1,11 +1,11 @@
-audit-tool:
+SRR-audit-tool:
   repo: https://github.com/chi-org/SRR-audit-tool.git
   folders:
     jsnapy: network_template/jsnapy
     robottest: network_template/robottest
     tableview: network_template/tableview
 
-template-editor:
+SRR-template-editor:
   repo: https://github.com/chi-org/SRR-template-editor.git
   folders:
     jsnapy: template/jsnapy
@@ -14,7 +14,7 @@ template-editor:
     textfsm: template/textfsm
     tableview: template/tableview
 
-monitoring-tool:
+SRR-monitoring-tool:
   repo: https://github.com/chi-org/SRR-monitoring-tool.git
   folders:
     grafana-dashboard: resource/grafana-dashboard
